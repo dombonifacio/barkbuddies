@@ -8,6 +8,9 @@ import * as yup from 'yup'
 // allows us to work with yup and hook form at the same time
 import { yupResolver } from '@hookform/resolvers/yup'
 
+// api library
+import { Axios } from "axios"
+
 // interfaces
 // import { Dog } from "../interface/Dog"
 
@@ -34,6 +37,9 @@ export const Give = () => {
     // declare a function what will happen after handleSubmit executes
     const onSubmit = (data: CustomFormData) => {
         console.log(data)
+        // add the dogs to our database here using axios
+        // index.js server side has made an endpoint for creating dogs 
+        // now we can access that endpoint using axios post to send data to our backend
     }
 
     return (
