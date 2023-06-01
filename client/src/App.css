@@ -1,0 +1,31 @@
+* {
+  font-family: 'Inter', sans-serif;
+  
+}
+
+/* 
+.App {
+  text-align: center;
+  background: linear-gradient(263deg, #4B4891 14%, #2C2066 74%);
+  color: white;
+
+  
+} */
+
+.linear-bg {
+  background: linear-gradient(263deg, #4B4891 14%, #2C2066 74%);
+  
+}
+
+.Navbar {
+  background: #110744;
+}
+
+/* Navbar */
+.dropdownMenu {
+  background: #221F50;
+}
+
+
+
+
