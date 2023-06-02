@@ -1,7 +1,7 @@
 # BarkBuddies
 #### Ongoing Personal Project
 
-BarkBuddies is a web app that allows users to find dogs up for adoption or post their dogs to find them a new home! Barkbuddies is written in ReactJS and will be using localStorage (for now) for storing data.
+BarkBuddies is a web app that allows users to find dogs up for adoption or post their dogs to find them a new home! Barkbuddies is written in ReactJS and will be using MySQL for the database.
 
 ### BarkBuddies' Features: CRUD operations
 - Post a dog
@@ -12,9 +12,12 @@ BarkBuddies is a web app that allows users to find dogs up for adoption or post 
 ### BarkBuddies Frontend
 - ReactJS
 - TypeScript
-- LocalStorage
+- React Hook Form
+- Yup library used for form validation with React Hook Form
 - TailwindCSS
 
+### BarkBuddies Backend
+- Backend Database using MySQL (Node.js and Express.js)
+
 ### BarkBuddies' future features:
-- Backend using MongoDB (Node.js and Express.js)
 - Implement authentication with OAuth
